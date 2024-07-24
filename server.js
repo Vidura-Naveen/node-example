@@ -66,7 +66,7 @@ const server = http.createServer(async(req,res) => {
             }
             else {
                 res.writeHead(404 ,{'Content-Type':'text/html'}); //me parana widiya
-                res.end('<h1>Not Found </h1>'); //me parana widiya
+                res.end('<h1>Not Found </h1>'); //me parana widiya meke error ekk enawa url ekak filepath ekata enne nethi nisa app eka crash wenawa not found page eka pennuwata
             }
 
             const data = await fs.readFile(filePath);
