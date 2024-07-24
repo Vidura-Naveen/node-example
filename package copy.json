@@ -7,8 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serverstart": "node server.js",
-    "startnodemon": "nodemon  server.js",
-    "start": "nodemon --env-file=.env  server.js"
+    "start": "nodemon server.js"
   },
   "author": "vidura",
   "license": "MIT",
