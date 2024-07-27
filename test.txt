@@ -1,0 +1,2 @@
+HELLO I AM WRITE FROM FS DEMO.JS
+ I am Appended Text
